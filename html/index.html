@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Welcome</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="panel" class="hidden">
+    <div class="card">
+        <h1 id="serverName">Server</h1>
+        <p id="tagline" class="tagline"></p>
+        <div class="divider"></div>
+
+        <div id="homeView">
+            <p id="welcomeText"></p>
+            <div class="buttons">
+                <button id="btnDiscord" class="btn accent">Join the Discord</button>
+                <button id="btnRules" class="btn">Read the Rules</button>
+                <button id="btnStore" class="btn">Visit the Store</button>
+                <button id="btnWebsite" class="btn">Website</button>
+            </div>
+        </div>
+
+        <div id="rulesView" class="hidden">
+            <h2>Server Rules</h2>
+            <ol id="rulesList"></ol>
+            <div class="buttons">
+                <button id="btnBack" class="btn">Back</button>
+            </div>
+        </div>
+
+        <button id="btnClose" class="btn accent wide">Start Playing</button>
+        <p id="footerText" class="footer"></p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
